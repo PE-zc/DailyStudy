@@ -1,0 +1,90 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* BODY */
+.login-page {
+    height: 100vh;
+    background: linear-gradient(135deg, #1e1e2f, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* CONTAINER */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    background: #2e2e42;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    text-align: center;
+}
+
+/* TITULOS */
+.login-container h1 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.login-container h2 {
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+/* FORM */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* INPUTS */
+input {
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #1e1e2f;
+    color: white;
+    font-size: 14px;
+}
+
+/* BOTAO */
+.submit-button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #000000;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    background: #000000;
+}
+
+/* ERRO */
+.error-message {
+    color: #ff4d4d;
+    font-size: 0.9rem;
+}
+
+/* LINKS */
+a {
+    color: #ff7a18;
+}
+
+/* RESPONSIVO */
+@media (min-width: 768px) {
+    .login-container {
+        max-width: 450px;
+        padding: 40px;
+    }
+}
